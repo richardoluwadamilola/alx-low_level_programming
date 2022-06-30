@@ -1,14 +1,8 @@
 #include <stdio.h>
 
-/*
- *
- * main - Prints quote
- *
- *
- *
- * Return: zero on success
- *
- *
+/**
+ * main - entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
