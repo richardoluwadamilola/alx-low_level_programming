@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
+ * main - entry point
  *
- * main -write "c programming with put"
- * Return: will always return 0
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
