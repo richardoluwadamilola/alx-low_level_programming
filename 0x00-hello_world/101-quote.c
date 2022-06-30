@@ -1,13 +1,14 @@
-#include <stdio.h>
+#include <unistd.h>
+
+
 
 /*
  *
- * main - Entry point
+ *main - Prints quote to the standard error
  *
- * Description: 'the program's descriptioni'
+ *description: 'the program's decription'
  *
- * Return: Always 0 (Success)
- *
+ *Return: zero on success
  */
 
 
@@ -15,10 +16,8 @@ int main(void)
 
 {
 
-	fprintf(stderr, "and that piece of art is useful\" \
+		write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
 
-			- Dora Korpar, 2015-10-19\n");
-
-	return (1);
+			return (1);
 
 }
