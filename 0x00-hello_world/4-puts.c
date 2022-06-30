@@ -1,21 +1,11 @@
 #include <stdio.h>
-
 /*
  *
- * main - Prints quote
- *
- * Description: "the program's descriptioni"
- *
- * Return: zero on success
- *
-  */
-
+ * main -write "c programming with put"
+ * Return: will always return 0
+ */
 int main(void)
-
 {
-
-		puts("\"Programming is like building a multilingual puzzle");
-
-			return (0);
-
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
