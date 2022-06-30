@@ -2,9 +2,9 @@
 
 /*
  *
- * main - prints the size of various types
+ * main - print quote
  *
- *  Return: zero if exited properly, non-zero otherwise
+ *  Return: zero on success
  *
  */
 int main(void)
