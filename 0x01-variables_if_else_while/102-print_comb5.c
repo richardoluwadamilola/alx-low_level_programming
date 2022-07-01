@@ -4,34 +4,50 @@
  * main - writes combinations of 00-99
  * @void: empty parameter list for main.
  *
- * Description: writes all unique combinations of 2 digit numbers
+ * Description: writes all unique combinations of 2
+ * digit numbers
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, j;
+	int a = 48;
+	int b = 48;
+	int c = 48;
+	int d = 49;
 
-	for (i = 0; i <= 99; i++)
+	while (a < 58)
 	{
-		for (j = 0; j <= 99; j++)
+		while (b < 58)
 		{
-			if (i < j)
+			while (c < 58)
 			{
-				putchar((i / 10) + '0');
-				putchar((1 % 10) + '0');
-				putchar(' ');
-				putchar((j / 10) + '0');
-				putchar((j % 10) + '0');
-
-				if (i != 98 || j != 99)
+				while (d < 58)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(a);
+					putchar(b);
+					putchar(32);
+					putchar(c);
+					putchar(d);
+					if (!(a == 57  && b == 56 && c == 57 && d == 57))
+					{
+						putchar(44);
+						putchar(32);
+					}
+					d++;
 				}
+				c++;
+				d = 48;
 			}
+			b++;
+			c = a;
+			d = b + 1;
 		}
+		a++;
+		b = 48;
+		c = a;
+		d = b + 1;
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
