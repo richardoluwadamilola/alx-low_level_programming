@@ -6,7 +6,7 @@
  *
  * Description: writes all unique combinations of 2 digit numbers
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
