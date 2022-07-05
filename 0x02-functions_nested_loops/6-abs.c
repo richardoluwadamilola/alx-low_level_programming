@@ -5,7 +5,7 @@
  * @n: int to compute as absolute
  * Return: absolute value
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 	{
