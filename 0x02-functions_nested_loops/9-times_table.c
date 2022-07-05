@@ -13,22 +13,22 @@ void times_table(void)
 	{
 		for (y = 0; y < 10; y++)
 		{
-			k = x * y;
+			z = x * y;
 			if (y == 0)
-				_putchar(k + '0');
-			if (y != 0 && k < 10)
+				_putchar(z + '0');
+			if (y != 0 && z < 10)
 			{
 				_putchar(44);
 				_putchar(32);
 				_putchar(32);
-				_putchar(k + '0');
+				_putchar(z + '0');
 			}
-			else if (k >= 10)
+			else if (z >= 10)
 			{
 				_putchar(44);
 				_putchar(32);
-				_putchar((k / 10) + '0');
-				_putchar((k % 10) + '0');
+				_putchar((z / 10) + '0');
+				_putchar((z % 10) + '0');
 			}
 		}
 		_putchar('\n');
