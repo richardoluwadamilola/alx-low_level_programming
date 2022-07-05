@@ -9,6 +9,7 @@
  * print_sign - return 1 for +, 0 for 0, -1  for -
  * _abs - computes absolute value of integer
  * print_last_digit - prints last digit
+ * jack_bauer - prints all the minutes of his day
  */
 int _putchar(char);
 void print_alphabet(void);
@@ -18,3 +19,4 @@ int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
+void jack_bauer(void);
