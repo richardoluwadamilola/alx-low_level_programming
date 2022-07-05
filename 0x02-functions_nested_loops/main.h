@@ -11,6 +11,7 @@
  * print_last_digit - prints last digit
  * jack_bauer - prints all the minutes of his day
  * times_table - prints times table up to 9
+ * add - add two ints, return sum
  */
 int _putchar(char);
 void print_alphabet(void);
@@ -22,3 +23,4 @@ int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
+int add(int, int);
