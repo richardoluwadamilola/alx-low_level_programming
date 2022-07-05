@@ -24,7 +24,7 @@ void print_times_table(int n)
 				{
 					_putchar(c + '0');
 				}
-				else if (c < 10 && b != o)
+				else if (c < 10 && b != 0)
 				{
 					_putchar(44);
 					_putchar(32);
