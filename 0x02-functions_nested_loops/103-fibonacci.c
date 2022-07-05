@@ -25,7 +25,7 @@ int main(void)
 			sum += z;
 	}
 
-	pritnf("%lu\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
 
