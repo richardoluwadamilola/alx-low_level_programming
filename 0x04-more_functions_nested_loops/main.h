@@ -7,6 +7,7 @@
  * print_void - prints numbers 0 - 9
  * print_most_numbers - prints 0 - 9 without 2 and 4
  * more_numbers - print 0 - 14 ten times
+ * print_line - print a line of n length
  */
 int _putchar(char);
 int _isupper(int c);
@@ -15,3 +16,4 @@ int mul(int a, int b);
 void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
+void print_line(int n);
