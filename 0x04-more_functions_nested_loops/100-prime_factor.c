@@ -10,9 +10,9 @@
  */
 int main(void)
 {
-	ling int max, lower, test;
+	long int max, lower, test;
 
-	nax = 612852475143;
+	max = 612852475143;
 	lower = 2;
 	test = 2;
 
