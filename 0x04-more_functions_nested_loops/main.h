@@ -10,6 +10,7 @@
  * print_line - print a line of n length
  * print_diagonal - print a diagonal line of n length
  * print_square - print a square of n size
+ * print_triangle - print a triangle of n size
  */
 int _putchar(char);
 int _isupper(int c);
@@ -21,3 +22,4 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
+void print_triangle(int size);
