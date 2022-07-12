@@ -1,6 +1,17 @@
-#include <unistd.h>
+#ifndef _MAIN_H
+#define _MAIN_H
 
+/**
+ * _putchar - writes the character c to stdout
+ * rev_string - a function that reverse a string
+ */
+
+int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+
+#endif
