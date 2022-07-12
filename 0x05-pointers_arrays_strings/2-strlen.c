@@ -3,9 +3,9 @@
 /**
  * _strlen - returns the length of the string
  * @s: input string to count
- * Return: length of sting as int
+ * Return: length  of string as int
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int i = 0;
 
