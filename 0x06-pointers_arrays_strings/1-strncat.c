@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates specified values from src to dest
+ * _strncat - concatenatestwo strings
  * @src: source
  * @dest: destination
  * @n: amount of bytes used from src
@@ -9,21 +9,19 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int count = 0, count2 = 0;
 
-	i = 0;
-
-	while (dest[i] != '\0')
-		i++;
-
-	for (j = 0; j < n; j++)
+	while (*(dest + count) != 0)
 	{
-		dest[i] = src[j];
-		i++;
+		count++;
 	}
-
-	if (dest[i - 1] != '\0')
-		dest[i] = '\0';
-
+	while (count2 < n)
+	{
+		*(dest + count)  = *(src + count2);
+		if (*(src + count2) == '\0')
+			break;
+		count++;
+		count2++;
+	}
 	return (dest);
 }
