@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates specified values from src to dest
+ * _strncat - concatenates specified values from src to dest
  * @src: second dtring to copy from
  * @dest: string to be overwritten
  * @n: number of values to concatenate

@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcpy - copies a string
+ * _strncpy - copies a string
  * @src: second string to copy from
  * @dest: string to be overwritten
  * @n: number of values to copy
  * Return: pointer to dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
