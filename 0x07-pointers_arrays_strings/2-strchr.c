@@ -2,7 +2,6 @@
 
 /**
  * _strchr - locates a character in a string
- * @src: source string
  * @s: string
  * @c: character to search for
  * Return: pointer to char
