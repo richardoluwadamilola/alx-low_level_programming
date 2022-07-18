@@ -3,8 +3,8 @@
 /**
  * _memset - fills memory with a constant byte
  * @s: pointer to memory
- * @b: constant byte 
- * @n: number of byte 
+ * @b: constant byte
+ * @n: number of byte
  * Return: pointer to memory
  */
 char *_memset(char *s, char b, unsigned int n)
