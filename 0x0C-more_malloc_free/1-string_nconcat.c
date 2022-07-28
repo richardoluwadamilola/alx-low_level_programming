@@ -4,8 +4,9 @@
  * string_nconcat - concatenates two strings
  * @s1: first string
  * @s2: second string
- * @n: index
+ * @n: maximun number of byte
  * Return: if the function fails - NULL
+ * Otherwise - a pointer to the concatenated space in memory.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
