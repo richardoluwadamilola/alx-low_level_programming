@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-void tortoiseAndHare(void) __attribute__ ((constructor));
-
 /**
- * tortoiseAndHare - print line before main
- * Return: Nothing
+ * bmain - function executed before main
+ * Return: no return.
  */
-void tortoiseAndHare(void)
+
+void __attribute__ ((constructor)) bmain()
 {
-	printf("You're beat! and yet, you must allow, \n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow");
+	printf(",\nI bore my house upon my back!\n");
 }
