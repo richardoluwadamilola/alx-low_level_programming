@@ -5,7 +5,7 @@
  * @head: head of a list.
  * Return: no return.
  */
-void free_listp2(listp_t **head)
+oid free_listp2(listp_t **head)
 {
 	listp_t *temp;
 	listp_t *curr;
@@ -41,7 +41,7 @@ size_t free_listint_safe(listint_t **h)
 		if (new == NULL)
 			exit(98);
 
-		new->p = (void *)*h;
+		new->p = (oid *)*h;
 		new->next = hptr;
 		hptr = new;
 
