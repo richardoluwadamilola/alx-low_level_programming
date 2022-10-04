@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P .. https://raw.githubusercontent.comrichardoluwadamilola/alx-low_level_programming/main/0x18-dynamic_libraries/libinjection.so
-export LD_PRELOAD="$PWD/../libinjection.so"
+wget https://github.com/svelezg/holbertonschool-low_level_programming/raw/master/0x18-dynamic_libraries/inject.so -P ../
+export LD_PRELOAD=../inject.so
