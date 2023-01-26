@@ -7,7 +7,6 @@
  * @n: Integer stored at the node.
  * @index: Index of the node in the list.
  * @next: Pointer to the next node.
- *
  * Description: Singly linked list node structure.
  */
 typedef struct listint_s
@@ -26,7 +25,6 @@ typedef struct listint_s
  * @index: Index of the node in the list.
  * @next: Pointer to the next node.
  * @express: Pointer to the next node in the express lane.
- *
  * Description: Singly linked list node structure with an express lane.
  */
 typedef struct skiplist_s
@@ -45,5 +43,6 @@ int linear_search(int *array, size_t size, int value);
 void print_array(int *array, size_t l, size_t r);
 int binary_search_index(int *array, size_t l, size_t r, int value);
 int binary_search(int *array, size_t size, int value);
+int jump_search(int *array, size_t size, int value);
 
 #endif
